@@ -7,8 +7,8 @@
 }
 body {
     background: black;
-    font-family: "Verdana";
-    letter-spacing: 0.03em;
+    font-family: "rocky_aoeregular";
+    letter-spacing: 0.05em;
     background-image: url(https://thumbs.gfycat.com/WickedImpracticalHeterodontosaurus-size_restricted.gif);
     background-size: cover;
     background-position: top center;
@@ -62,4 +62,13 @@ i {
 
 .item .social i:hover {
     transform: scale(1.1);
+}
+
+@font-face {
+    font-family: 'rocky_aoeregular';
+    src: url('rockyaoe-webfont.woff2') format('woff2'),
+         url('rockyaoe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
