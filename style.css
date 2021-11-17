@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+body {
+    background: black;
+    font-family: "Verdana";
+    letter-spacing: 0.03em;
+    background-image: url(https://thumbs.gfycat.com/WickedImpracticalHeterodontosaurus-size_restricted.gif);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    letter-spacing: 0;
+}
+
+.item {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item .text-container {
+    padding: 30px 20px 20px 20px;
+}
+
+.item h1 {
+    margin-bottom: 10px;
+    font-size: 200px;
+    font-weight: 600;
+    color: #fff;
+}
+@media (max-width: 767px){
+    .item h1 {font-size: 130px!important;}
+}
+
+.item h1:hover {
+    text-shadow: 0px 0px 10px #78e0f2, 0px 0px 20px #78e0f2, 0px 0px 30px #78e0f2,
+        0px 0px 40px #78e0f2, 0px 0px 50px #78e0f2;
+    }
+.item .social{
+    text-align: center;
+}
+
+.item .social i {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.item .social i:hover {
+    transform: scale(1.1);
+}
