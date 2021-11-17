@@ -1,2 +1,3 @@
-# notkkhuu.github.io
-personal portfolio / website
+## Welcome to [khuu.dev]
+
+personal portfiolio / website.
